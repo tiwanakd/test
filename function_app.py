@@ -54,6 +54,7 @@ def all_books(req: func.HttpRequest) -> func.HttpResponse:
                              mimetype="application/json",
                              status_code=200)
 
+#This fucntion fetches books by Year 
 @app.route(route="getbooksbyyear/{year}")
 def getbooksbyyear(req: func.HttpRequest) -> func.HttpResponse:
 
