@@ -43,6 +43,7 @@ data = {
     ]
 
 }
+#The following function is for AllBooks
 
 @app.route(route="allbooks")
 def all_books(req: func.HttpRequest) -> func.HttpResponse:
